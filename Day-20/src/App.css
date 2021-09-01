@@ -1,0 +1,39 @@
+
+body{
+  max-width: 500px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.container {
+    height: 600px;
+    margin-top: 40px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: rgb(197, 55, 55);
+  padding: 8px;
+  margin-top: 10px;
+}
+
+button{
+  padding: 4px;
+  border-radius: 15px;
+  background-color:rgb(68, 27, 105);
+  color:white
+
+}
+
+.card .food {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.noentry{
+  text-align: center;
+}
